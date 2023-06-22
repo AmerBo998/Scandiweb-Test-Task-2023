@@ -1,0 +1,180 @@
+.header {
+
+  width: 95%;
+  height: 200px;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.header-wrap {
+
+  width: 100%;
+  height: fit-content;
+
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0px;
+}
+
+.header-text {
+
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+
+}
+
+
+.add-btn {
+
+  padding: 10px;
+  background-color: rgb(17, 77, 189);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.mass-del-btn,
+.cancel-btn {
+
+  padding: 10px;
+  background-color: rgb(189, 17, 17);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.product-containter {
+
+  width: 85%;
+  height: 500px;
+
+  position: relative;
+  margin: 0 auto;
+  margin-top: -70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: last baseline;
+  gap: 30px;
+
+}
+
+.delete-checkbox {
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+  margin-top: 10px;
+
+}
+
+.product-card {
+
+  width: 200px;
+  height: 200px;
+  border: 2px solid rgb(0, 119, 255);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.footer {
+
+  border-top: 2px solid black;
+  padding: 25px 0px;
+  text-align: center;
+  font-weight: bold;
+  width: 95%;
+  margin: 0 auto;
+
+}
+
+a {
+
+  text-decoration: none;
+
+
+
+}
+
+button {
+
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+form {
+
+  margin-left: 50px;
+
+}
+
+label {
+
+  display: inline-block;
+  width: 100px;
+
+}
+
+input {
+
+  width: 200px;
+  height: 30px;
+  border: 2px solid rgb(0, 149, 255);
+  border-radius: 15px;
+}
+
+select {
+  margin-top: 20px;
+  ;
+  width: 200px;
+  height: 30px;
+  border: 2px solid rgb(0, 149, 255);
+  border-radius: 15px;
+
+}
+
+
+.error-message {
+
+  font-size: 15px;
+  color: red;
+  font-weight: bolder;
+  font-style: italic;
+
+}
+
+.description {
+
+  margin-left: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  font-style: italic;
+
+}
+
+.delproba {
+
+  width: 100px;
+  height: 100px;
+  color: black;
+  border: 1px solid black;
+}
